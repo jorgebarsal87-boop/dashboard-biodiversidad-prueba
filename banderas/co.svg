@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><clipPath id="recorte-redondo"><circle cx="256" cy="256" r="256"/></clipPath><g clip-path="url(#recorte-redondo)">
+  <g fill-rule="evenodd" stroke-width="1pt">
+    <path fill="#ffe800" d="M0 0h512v512H0z"/>
+    <path fill="#00148e" d="M0 256h512v256H0z"/>
+    <path fill="#da0010" d="M0 384h512v128H0z"/>
+  </g>
+</g><circle cx="256" cy="256" r="253" fill="none" stroke="#00000033" stroke-width="6"/></svg>
