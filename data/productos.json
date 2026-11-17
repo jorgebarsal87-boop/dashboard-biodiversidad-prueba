@@ -2,7 +2,7 @@
   {
     "producto": "Achiote",
     "slug": "achiote",
-    "ambito": "Por validar",
+    "ambito": "Amazonía",
     "sector": "Por confirmar",
     "foto": "",
     "autor": "",
@@ -112,7 +112,7 @@
   {
     "producto": "Chancapiedra",
     "slug": "chancapiedra",
-    "ambito": "No amazónico",
+    "ambito": "Amazonía",
     "sector": "Por confirmar",
     "foto": "",
     "autor": "",
@@ -189,7 +189,7 @@
   {
     "producto": "Granadilla",
     "slug": "granadilla",
-    "ambito": "Por validar",
+    "ambito": "Amazonía",
     "sector": "Por confirmar",
     "foto": "",
     "autor": "",
@@ -200,7 +200,7 @@
   {
     "producto": "Guanábana",
     "slug": "guanabana",
-    "ambito": "Por validar",
+    "ambito": "Amazonía",
     "sector": "Por confirmar",
     "foto": "",
     "autor": "",
@@ -277,7 +277,7 @@
   {
     "producto": "Maracuyá",
     "slug": "maracuya",
-    "ambito": "Por validar",
+    "ambito": "No amazónico",
     "sector": "Por confirmar",
     "foto": "",
     "autor": "",
