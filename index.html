@@ -7,9 +7,9 @@
   <link rel="icon" href="marca/icono.svg" type="image/svg+xml" />
   <meta name="description" content="Tablero de PROMPERÚ con las exportaciones de productos de la biodiversidad nativa del Perú desde 2016: valor FOB, productos, países de destino, regiones y empresas exportadoras, con datos de SUNAT actualizados cada mes." />
   <title>Exportaciones de la biodiversidad nativa del Perú | PROMPERÚ · Cultura Sostenible</title>
-  <style>:root{--primario:#004520;--secundario:#006c54;--acento:#33e993;--verde:#1bb282;--suave:#cad9c5;font-family:Neuzeit Grotesk,DIN Alternate,Barlow,system-ui,sans-serif}html,body{height:100%;color:var(--primario);background:#fff;margin:0}#carga{background:#fff;flex-direction:column;justify-content:center;align-items:center;gap:20px;transition:opacity .3s cubic-bezier(.7,0,.84,0);display:flex;position:fixed;inset:0}#carga.oculta{opacity:0;pointer-events:none}.hojas{gap:8px;display:flex}.hojas span{background:var(--verde);border-radius:50% 0;width:14px;height:14px;animation:1.2s ease-in-out infinite pulso}.hojas span:nth-child(2){background:var(--secundario);animation-delay:.15s}.hojas span:nth-child(3){background:var(--acento);animation-delay:.3s}@keyframes pulso{0%,to{opacity:.5;transform:scale(.6)}50%{opacity:1;transform:scale(1.2)}}#carga p{color:var(--secundario);margin:0;font-size:1rem}#carga.error p{color:#9b1c1c}@media (prefers-reduced-motion:reduce){.hojas span{animation:none}}</style>
-  <script type="module" crossorigin src="./assets/index-aYZqneqe.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-D-Pkkgus.css">
+  <style>:root{--primario:#004520;--secundario:#006c54;--acento:#33e993;--verde:#1bb282;--suave:#cad9c5;font-family:Neuzeit Grotesk,DIN Alternate,Barlow,system-ui,sans-serif}html,body{height:100%;color:var(--primario);background:#fff;margin:0}#carga{background:#fff;flex-direction:column;justify-content:center;align-items:center;gap:20px;transition:opacity .3s cubic-bezier(.23,1,.32,1);display:flex;position:fixed;inset:0}#carga.oculta{opacity:0;pointer-events:none}.hojas{gap:8px;display:flex}.hojas span{background:var(--verde);border-radius:50% 0;width:14px;height:14px;animation:1.2s ease-in-out infinite pulso}.hojas span:nth-child(2){background:var(--secundario);animation-delay:.15s}.hojas span:nth-child(3){background:var(--acento);animation-delay:.3s}@keyframes pulso{0%,to{opacity:.5;transform:scale(.6)}50%{opacity:1;transform:scale(1.2)}}#carga p{color:var(--secundario);margin:0;font-size:1rem}#carga.error p{color:#9b1c1c}@media (prefers-reduced-motion:reduce){.hojas span{animation:none}}</style>
+  <script type="module" crossorigin src="./assets/index-Bv52KOso.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DNIzZFov.css">
 </head>
 <body>
   <div id="carga" role="status" aria-live="polite">
@@ -25,18 +25,21 @@
           <span class="marcas-separador" aria-hidden="true"></span>
           <a href="https://culturasostenible.pe/" target="_blank" rel="noopener" aria-label="Cultura Sostenible (abre su sitio web en otra pestaña)">
             <img class="logo logo-cultura" src="marca/cultura-sostenible-blanco.png" alt="Cultura Sostenible" width="78" height="44" /></a>
+          <p class="banner-area">Departamento de Comercio Sostenible<br />Estrategia Cultura Sostenible</p>
         </div>
-        <p class="banner-area">Departamento de Comercio Sostenible · Estrategia Cultura Sostenible</p>
         <h1>Exportaciones de la biodiversidad nativa del Perú</h1>
-        <p class="banner-lead">Reúne las exportaciones de un total de <span id="banner-total">42</span> productos de la biodiversidad nativa del Perú, entre los que se encuentran la cochinilla, la quinua, la tara, la maca y el camu camu. Muestra cuánto se exporta, a qué países, desde qué regiones y qué empresas lo hacen, con cifras de las declaraciones de exportación registradas por SUNAT que se actualizan cada mes.</p>
-        <p class="banner-uso">Use los filtros para elegir un periodo, un producto, un país o una región: todo el tablero se recalcula. Cada gráfico se puede descargar en Excel, imagen o PowerPoint.</p>
+        <p class="banner-lead">Reúne las exportaciones de un total de <span id="banner-total">42</span> productos de la biodiversidad nativa del Perú, entre los que se encuentran la cochinilla, la quinua, la tara, la maca y el camu camu: cuánto se exporta, a qué países, desde qué regiones y qué empresas lo hacen. Las cifras provienen de las declaraciones de exportación registradas por SUNAT y se actualizan cada mes.</p>
+        <p class="banner-uso">Elija un periodo, un producto, un país o una región y todo el tablero se recalcula. Cada gráfico se descarga en Excel, imagen o PowerPoint.</p>
         <div class="banner-acciones">
           <a class="btn-banner btn-banner-principal" href="#filtros">Explorar los datos</a>
           <a class="btn-banner" href="#notas-metodologicas" id="ir-notas">Cómo leer este tablero</a>
         </div>
         <p class="banner-corte" id="banner-corte"></p>
       </div>
-      <img class="banner-mapa" src="marca/peru-lineas.svg" alt="" aria-hidden="true" width="520" height="762" />
+      <figure class="banner-figura" hidden>
+        <div class="banner-mapa" aria-hidden="true"></div>
+        <figcaption>Valor exportado por región desde 2016: cuanto más intenso el verde, mayor el valor.</figcaption>
+      </figure>
     </div>
   </header>
   <div id="app">
@@ -55,6 +58,7 @@
     <footer id="pie"></footer>
   </div>
   <footer class="pie-institucional">
+    <p class="pie-nombre">Exportaciones de la biodiversidad nativa del Perú</p>
     <div class="pie-institucional-interior">
       <div class="pie-marca">
         <div class="marcas">
